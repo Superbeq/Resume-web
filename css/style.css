@@ -1,0 +1,46 @@
+* {
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #66bfbf !important;
+}
+
+.main_container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.icon {
+  font-size: 3em;
+}
+
+.font1 {
+  font-family: "Sacramento", cursive;
+  color: black;
+  font-size: 40px;
+}
+
+.font2 {
+  font-family: "Explora", cursive;
+}
+
+.bottom-container {
+  width: 100%;
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 580px) {
+  .font1 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .bottom-container {
+    padding: 20px 0 20px;
+  }
+}
